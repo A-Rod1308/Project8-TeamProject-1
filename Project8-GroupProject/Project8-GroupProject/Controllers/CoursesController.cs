@@ -12,5 +12,9 @@ namespace Project8_GroupProject.Controllers
         {
             return View();
         }
+        public IActionResult SignUp()
+        {
+            return View();
+        }
     }
 }
