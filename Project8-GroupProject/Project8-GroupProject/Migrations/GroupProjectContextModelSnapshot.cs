@@ -26,17 +26,6 @@ namespace Project8_GroupProject.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
@@ -44,9 +33,12 @@ namespace Project8_GroupProject.Migrations
 
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(max)");
+
                     b.HasKey("AccID");
+
                     b.ToTable("Accounts");
                 });
+#pragma warning restore 612, 618
         }
     }
 }

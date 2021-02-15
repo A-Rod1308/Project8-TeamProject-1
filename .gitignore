@@ -10,3 +10,6 @@ Project8-GroupProject/.vs/Project8-GroupProject/v16/.suo
 Project8-GroupProject/Project8-GroupProject/obj/Project8-GroupProject.csproj.nuget.dgspec.json
 Project8-GroupProject/Project8-GroupProject/obj/Debug/net5.0/Project8-GroupProject.csprojAssemblyReference.cache
 Project8-GroupProject/Project8-GroupProject/obj/Debug/net5.0/Project8-GroupProject.csprojAssemblyReference.cache
+*.config
+Project8-GroupProject/.vs/Project8-GroupProject/v16/.suo
+*.cache
